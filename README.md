@@ -44,7 +44,7 @@ docker build -t your-image-name .
 docker run -p 80:80 your-image-name
 ```
 ### Step 3: View the Application
-Open your web browser and visit http://localhost:8080 to view the application.
+Open your web browser and visit http://localhost:80 to view the application.
 
 ## Form Validation Rules:
 
