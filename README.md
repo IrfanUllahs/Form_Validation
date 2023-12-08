@@ -20,8 +20,31 @@ Welcome to the Form Validation project! This web application, developed using HT
 
 ## How to Use:
 
+### Option 1: Local Development with `index.html`
+
 1. Clone the repository to your local machine.
-2. Open the `index.html` file in your preferred web browser.
+
+   ```bash
+   git clone https://github.com/your-username/your-repository.git
+## Option 2: Using Docker
+
+If you prefer using Docker for development, follow these steps:
+
+### Step 1: Build the Docker Image
+
+Open a terminal and run the following command to build the Docker image:
+
+```plaintext
+docker build -t your-image-name .
+
+```
+### Step 2: Run a Docker Container
+
+```plaintext
+docker run -p 80:80 your-image-name
+```
+### Step 3: View the Application
+Open your web browser and visit http://localhost:8080 to view the application.
 
 ## Form Validation Rules:
 
